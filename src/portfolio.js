@@ -50,9 +50,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji(
-      "⚡ Integration of third party services such as AWS / Azure"
-    )
+    emoji("⚡ Integration of third party services such as AWS / Azure")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -98,7 +96,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -124,7 +122,7 @@ const educationInfo = {
       logo: require("./assets/images/tdn.png"),
       subHeader: "High School ",
       duration: "September 2020 - May 2023",
-      desc: "GPA 3.88",
+      desc: "GPA 3.88"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -163,7 +161,7 @@ const workExperiences = {
       date: "May 2024 – August 2024",
       descBullets: [
         "Developed the frontend of a cross-platform food delivery mobile application for iOS and Android using the React Native framework within a 3-month timeframe.",
-        "Integrated with RESTful APIs with Express.js and MySQL databases to efficiently handle over 5,000 users’ data across web and mobile applications, improving data accuracy and user management.",
+        "Integrated with RESTful APIs with Express.js and MySQL databases to efficiently handle over 5,000 users’ data across web and mobile applications, improving data accuracy and user management."
       ]
     },
     {
@@ -196,7 +194,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ia.jpeg"),
       projectName: "WPI Investing Association",
-      projectDesc: "The gateway to professional finance and investing experiences at WPI",
+      projectDesc:
+        "The gateway to professional finance and investing experiences at WPI",
       footerLink: [
         {
           name: "Visit Website",
@@ -204,7 +203,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
@@ -225,8 +224,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, that I have achieved !",
+  subtitle: "Achievements, Certifications, that I have achieved !",
 
   achievementsCards: [
     {
@@ -239,7 +237,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1QUBrZi9mhC3O25Ggk-0ZzCkVKqnPE3LS/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -254,7 +252,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1IBlOGo_mjlbpLwVtkKev0OJ3NyM_swHT/view?usp=sharing"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
